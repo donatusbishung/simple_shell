@@ -93,7 +93,8 @@ void handle_line(char **line, ssize_t read)
 }
 
 /**
- * get_new_len - Gets the new length of a line partitioned by ";", "||", "&&&", or "#"
+ * get_new_len - Gets the new length of a line partitione
+ * by ";", "||", "&&&", or "#"
  * @line: The line to check.
  * Return: The new length of the line.
  * Description: Cuts short lines containing '#' comments with '\0'.
