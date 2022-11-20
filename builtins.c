@@ -18,7 +18,7 @@ int (*get_builtin(char *command))(char **args, char **front)
 		{ "env", shellby_env },
 		{ "setenv", shellby_setenv },
 		{ "unsetenv", shellby_unsetenv },
-		{ "cd". shellby_cd },
+		{ "cd", shellby_cd },
 		{ "alias", shellby_alias },
 		{ "help", shellby_help },
 		{ NULL, NULL }
